@@ -9,6 +9,7 @@ COPY source/plugins/achievements/queries/achievements.graphql /metrics/source/pl
 COPY source/plugins/achievements/queries/organizations.graphql /metrics/source/plugins/achievements/queries/organizations.graphql
 COPY source/plugins/achievements/list/users.mjs /metrics/source/plugins/achievements/list/users.mjs
 COPY source/plugins/achievements/list/organizations.mjs /metrics/source/plugins/achievements/list/organizations.mjs
+COPY source/plugins/habits/index.mjs /metrics/source/plugins/habits/index.mjs
 
 # No need to rebuild - the base image already has everything installed
 # Our code changes are just file replacements
